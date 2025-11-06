@@ -10,16 +10,15 @@
   <body class="body">
 <script>
   window.onload = function () {
-    const buttons = document.querySelectorAll('.apply_free');
-    buttons.forEach(button => {
+    const freeButtons = document.querySelectorAll('.apply_free');
+    freeButtons.forEach(button => {
       button.addEventListener('click', function () {
         window.open('https://docs.google.com/forms/d/e/1FAIpQLSc4lYN63HL755qCKQurAnz5Mp4fIo2gpG5mr4JrvzELgJnHqA/viewform?usp=header', '_blank');
       });
     });
-  };
-  window.onload = function () {
-    const buttons = document.querySelectorAll('.apply_footer');
-    buttons.forEach(button => {
+
+    const footerButtons = document.querySelectorAll('.apply_footer');
+    footerButtons.forEach(button => {
       button.addEventListener('click', function () {
         window.open('https://docs.google.com/forms/d/e/1FAIpQLSc4lYN63HL755qCKQurAnz5Mp4fIo2gpG5mr4JrvzELgJnHqA/viewform?usp=header', '_blank');
       });
