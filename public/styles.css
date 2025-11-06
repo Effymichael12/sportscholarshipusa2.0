@@ -698,6 +698,19 @@ line-height: 1.8;
   .career_tool{
     width: 150px;
   }
+  .testimonials{
+    background-color: white;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    overflow-x: scroll;
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+  }
   .testimonial{
     width: 80%;
     height: 90px;
