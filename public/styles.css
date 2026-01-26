@@ -514,6 +514,12 @@ line-height: 1.8;
   }
 
 }
+.image-article{
+  width: 70%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 @media screen and (max-width: 700px) {
   .the_process{
     width: 100%;
@@ -526,7 +532,6 @@ line-height: 1.8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
     padding-top: 20px;
     overflow-x: scroll;
     height: 100px;
@@ -662,7 +667,12 @@ line-height: 1.8;
   width: 350px;
   text-align: center;
  }
-
+.image-article{
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
  .blog_sub_title{
   font-size: 16px;
   width: 350px;
@@ -697,19 +707,6 @@ line-height: 1.8;
   }
   .career_tool{
     width: 150px;
-  }
-  .testimonials{
-    background-color: white;
-    height: 150px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    overflow-x: scroll;
-    height: 100px;
-    width: 100%;
-    z-index: 10;
   }
   .testimonial{
     width: 80%;
@@ -759,6 +756,11 @@ line-height: 1.8;
   .blog_p{
     width: 100%;
   }
-  
+  .image-article{
+  width: 70%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 }
 
